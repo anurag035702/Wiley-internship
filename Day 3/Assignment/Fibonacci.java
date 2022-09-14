@@ -10,9 +10,11 @@ public class Fibonacci {
 		   sum=f1+f2;
 	   }
    }
-   
-   public static void main(String args[]) {
-	   int low=20,high=100;
-	   fib(low,high);
    }
+    class test{
+   public static void main(String args[]) {
+	   Fibonacci f= new Fibonacci(); 
+	   int low=20,high=100;
+	   Fibonacci.fib(low,high);
+}
 }
